@@ -121,7 +121,7 @@ public class Main {
                                 break;
                             case 2:
                                 System.out.println(cikService.getVotesList());
-                                cikService.generatePDF(cikService.getVotesList(), "results2.pdf");
+                                cikService.generatePDF("", cikService.getVotesList());
                             case 0:
                                 break;
                             default:
